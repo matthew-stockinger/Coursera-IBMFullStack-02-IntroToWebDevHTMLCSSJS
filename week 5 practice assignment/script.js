@@ -1,3 +1,12 @@
+/*
+
+This is the practice assignment for this course, to be completed before the final project.
+I didn't follow the directions exactly, because they were telling me to write Frankenfunctions.
+I separated some of the functionality out into other functions, but I would decouple it
+even further if I spent more time refactoring.
+
+*/
+
 function updateRate() {
   const rateval = document.getElementById("rate").value;
   document.getElementById("rate_val").innerText = rateval;
