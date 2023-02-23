@@ -26,7 +26,8 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 .topdiv {
@@ -106,10 +107,12 @@ h2 {
 }
 
 .profile_image {
+  border-radius: 50%;
   width: 550px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+  padding: 2rem;
 }
 
 /* Skills */
